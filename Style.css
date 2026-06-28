@@ -1,0 +1,40 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  
+}
+.card {
+  height: 250px;
+  width: 100%;
+  background-image: url('cr7.png');
+  background-size: cover;
+  border: none;
+  border-radius: 15px;
+  /**display: flex;**/
+  padding-top: 15px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 8px 20px rgba(0,0,0,0.2);
+}
+input{
+  height: 40px;
+  width: 280px;
+  margin: 10px 30px;
+  border-radius: 15px;
+  border: none;
+  background: transparent;
+}
+button{
+  height: 40px;
+  width: 200px;
+  color: white;
+  margin: 10px 70px;
+  border-radius: 15px;
+  background-color: #054A91;
+  border: none;
+}
+a{
+  margin: 10px 30px;
+}
